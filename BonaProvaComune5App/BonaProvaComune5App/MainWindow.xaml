@@ -8,16 +8,18 @@
         Title="Maratona" Height="650" Width="800">
     <StackPanel>
         <Button x:Name="BtnLeggiDaFile" Content="Leggi da file" Click="BtnLeggiDaFile_Click"/>
-        <DataGrid x:Name="DgElencoPiloti" Height="300" />
+        <DataGrid x:Name="DgElencoAtleti" Height="300" />
+        <Label Content="Inserisci il nome dell'atleta:"/>
+        <TextBox x:Name="TxtNome" />
         <Label Content="Inserisci il nome della città:"/>
-        <TextBox x:Name="TxtTitolo" />
-        <Label x:Name="LblArtista" />
-        <Button x:Name="BtnCercaArtista" Content="Cerca Artista" Click="BtnCercaArtista_Click"/>
-        <Label Content="Inserisci il nome dell'album:"/>
+        <TextBox x:Name="TxtCittà" />
+        <Label x:Name="LblAtleta" />
+        <Button x:Name="BtnCalcolaMinuti" Content="Calcola minuti" Click="BtnCalcolaMinuti_Click"/>
+        <Label Content="Inserisci il nome della:"/>
         <TextBox x:Name="TxtAlbum" />
         <Label x:Name="LblNumBrani" />
-        <Button x:Name="BtnContaPiloti" Content="Conta Piloti" Click="BtnContaBrani_Click"/>
+        <Button x:Name="BtnContaPiloti" Content="Conta Piloti" Click="BtnContaPiloti_Click"/>
         <Label x:Name="LblDurata" />
-        <Button x:Name="BtnDurata" Content="Calcola durata totale" Click="BtnDurata_Click"/>
+        
     </StackPanel>
 </Window>

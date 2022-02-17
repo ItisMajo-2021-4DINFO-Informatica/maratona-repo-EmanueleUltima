@@ -21,40 +21,40 @@ namespace BonaProvaComune5App
     public partial class MainWindow : Window
     {
         Piloti piloti;
+        private object citta;
 
         public MainWindow()
         {
             InitializeComponent();
             piloti = new Piloti();
-            DgElencoPiloti.ItemsSource = piloti.elencoBrani;
+            DgElencoAtleti.ItemsSource = piloti.elencoMaratone;
         }
 
         private void BtnLeggiDaFile_Click(object sender, RoutedEventArgs e)
         {
             piloti.LeggiDati();
-            DgElencoPiloti.Items.Refresh();
+            DgElencoAtleti.Items.Refresh();
         }
 
-        private void BtnCercaArtista_Click(object sender, RoutedEventArgs e)
+
+
+        private void BtnCalcolaMinuti_Click(object sender, RoutedEventArgs e)
         {
-            string titolo = TxtTitolo.Text;
-            // eventualmente aggiungo un controllo sull'input
-            string artistaTrovato = piloti.CercaArtista(città);
-            LblArtista.Content = artistaTrovato;
+            string Nome = TxtNome.Text;
+           
+            string Atleta = piloti.Nome(citta);
+            LblAtleta.Content = Atleta;
         }
-
-        private void BtnContaBrani_Click(object sender, RoutedEventArgs e)
+      
+    private void BtnContaBrani_Click(object sender, RoutedEventArgs e)
         {
             string album = TxtAlbum.Text;
-            // eventualmente aggiungo un controllo sull'input
-            string numeroBrani = piloti.ContaBrani(album);
+   
+            string numeroBrani = piloti.ContaMaratona(album);
             LblNumBrani.Content = numeroBrani;
         }
 
-        private void BtnDurata_Click(object sender, RoutedEventArgs e)
-        {
-            string durata = piloti.CalcolaDurata();
-            LblNumBrani.Content = durata;
-        }
+       
+
     }
 }

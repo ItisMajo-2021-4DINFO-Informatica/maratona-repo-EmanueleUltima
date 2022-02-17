@@ -1,0 +1,5 @@
+C:\Users\Utente\Desktop\GitHub\BonaProvaComune5App\BonaProvaComune5App\obj\Debug\net5.0-windows\BonaProvaComune5App.csproj.AssemblyReference.cache
+C:\Users\Utente\Desktop\GitHub\BonaProvaComune5App\BonaProvaComune5App\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Utente\Desktop\GitHub\BonaProvaComune5App\BonaProvaComune5App\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Utente\Desktop\GitHub\BonaProvaComune5App\BonaProvaComune5App\obj\Debug\net5.0-windows\BonaProvaComune5App_MarkupCompile.cache
+C:\Users\Utente\Desktop\GitHub\BonaProvaComune5App\BonaProvaComune5App\obj\Debug\net5.0-windows\BonaProvaComune5App_MarkupCompile.lref

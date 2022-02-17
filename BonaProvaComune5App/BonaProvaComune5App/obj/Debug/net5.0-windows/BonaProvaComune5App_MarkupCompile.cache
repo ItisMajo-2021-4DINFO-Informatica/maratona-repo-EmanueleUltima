@@ -1,5 +1,5 @@
 ﻿BonaProvaComune5App
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Utente\Desktop\GitHub\BonaProvaComune5App\BonaProvaComune5App\App.xaml
 11407045341
 
-7-1621826340
+571224755
 193-1891726104
 MainWindow.xaml;
 
-False
+True
 

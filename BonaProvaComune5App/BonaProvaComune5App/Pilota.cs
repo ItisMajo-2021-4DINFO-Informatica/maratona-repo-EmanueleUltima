@@ -10,8 +10,17 @@ namespace BonaProvaComune5App
     {
         public string NomeAtleta { get; set; }
         public string SocietàDiAppartenenza { get; set; }
-        public string TempoImpiegato { get; set; }
-        public string CittàInCuiSièCorsaLaMaratona  { get; set; }
+        public string Tempo { get; set; }
+        public string Citta { get; set; }
         
+
+
+
+         }
+        
+
+
+
+
     }
-}
+
